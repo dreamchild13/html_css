@@ -12,3 +12,55 @@ h2, h3 {
 .denumire {
   color: red;
 }
+
+.guarantee {
+  /*float:right;*/
+  border-color: white;
+  border-width: 2px;
+  border-style: dashed;
+  background-color: #a7cece;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 3px;
+  padding-left: 80px;
+  margin: 10px auto;
+
+  line-height : 1.6em;
+  min-height: 80px;
+  width:400px;
+  text-align : center;
+   box-sizing: border-box;
+}
+a {
+  color : white;
+  text-decoration : none;
+
+}
+a:link {
+
+}
+a:visited {
+  color: #888888;
+
+}
+a:hover {
+text-decoration: underline;
+}
+
+
+.song{
+font-style:italic;
+
+}
+.artist {
+  font-weight:bold;
+}
+
+#ticket{
+  position :fixed;
+  top : 100px;
+  right : 10px;
+  width : 290px;
+
+}
